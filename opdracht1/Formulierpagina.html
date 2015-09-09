@@ -1,0 +1,238 @@
+  <!doctype html>
+<html>
+
+
+     <head>
+        <meta charset="utf-8">
+        <title>CMD Formulier</title>
+    </head>
+
+<body>
+
+ <main>
+
+   <article>
+
+      <h1>Aanmelden</h1>
+
+     <section>
+
+
+
+        <p>
+        Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+        Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers.
+        Ook lopen de studenten stage, in het tweede en afstudeerjaar.
+        </p>
+
+       <p>
+        <em>
+        CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+        Amsterdam.
+        </em>
+       </p>
+
+       <p>
+       Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+       Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+       Voor vragen of opmerkingen kunt u <a href="https://www.cmd-amsterdam.nl/contact/">contact</a> met ons op nemen.
+       </p>
+
+
+    <form>
+
+        <fieldset>
+
+            <legend>Contact gegevens</legend>
+
+            <label for="name">Naam:</label>
+            <input type="text" name="Naam" placeholder="Voor en achternaam" id="name" required>
+
+
+            <label for="bedrijf">Bedrijf:</label>
+            <input type="text" name="Bedrijf" placeholder="bijv. Houthak BV" id="bedrijf">
+
+
+
+            <label for="straat">Straatnaam & huisnummer:</label>
+            <input type="text" placeholder="Straatnaam" id="straat">
+            <input type="number" name="straatnaam" placeholder="huisnummer">
+
+
+            <label for="postcode">Postcode:</label>
+            <input type="text" pattern="[0-9]{4}" placeholder="4 nummers" id="postcode"/>
+            <input type="text" name="postcode" pattern="[A-Z]{2}" placeholder="2 letters"/>
+
+
+
+            <label for="plaats">Plaats:</label>
+            <input type="text" name="plaats" placeholder="bijv. Amsterdam" id="plaats">
+
+
+            <label for="telefoon">Telefoon:</label>
+            <input type="tel" name="telefoon" placeholder="bijv. 06-12345678" id="telefoon">
+
+
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="bijv. Pieter-Bos@gmail.com" required id="email">
+
+
+
+
+            <label>Ik wil mij aanmelden:</label>
+
+            <input type="radio" name="Aanmelden" value="Project" required id="project"><label for="project">Voor een project</label
+            <input type="radio" name="Aanmelden" value="Stage" required id="stage"><label for="stage">Als stagebedrijf</label
+
+
+      </fieldset>
+
+    </form>
+
+    <form>
+
+      <fieldset>
+
+          <legend>Project</legend>
+
+           <ol>
+                <li> <label for="titel">Titel</label>
+                     <input type="text" required id="titel"> </li>
+
+                <li><label for="opdrachtomsch">Opdrachtomschrijving</label>
+                     <input type="text" name="opdrachtomschrijving" required id="opdrachtomsch"></li>
+
+                <li><label for="doelgroepomsch">Doelgroepomschrijving</label>
+                     <input type="text" name="doelgroep" id="doelgroepomsch"></li>
+
+                <li><label for="doelstelling/intentie.project">Doelstelling/ intentie van het project</label>
+                     <input type="text" name="doelstel" required id="doelstelling/intentie.project"></li>
+
+                <li><label for="looptijd">Looptijd</label>
+                     <input type="text" name="looptijd" required id="looptijd"></li>
+
+                <li><label for="deadline">Deadline</label>
+                     <input type="date" name="deadline" id="deadline"></li>
+            </ol>
+
+
+                <label>Geschikt voor</label>
+
+                 <ol>
+                    <li><input type="checkbox" name="Geschiktvoor" value="1" id="1"><label for="1">eerstejaars studenten</label</li>
+                    <li><input type="checkbox" name="Geschiktvoor" value="2" id="2"><label for="2">tweedejaars studenten</label</li>
+                    <li><input type="checkbox" name="Geschiktvoor" value="3" id="3"><label for="3">derdejaars studenten</label</li>
+                    <li><input type="checkbox" name="Geschiktvoor" value="4" id="4"><label for="4">afstudeerjaars studenten</label</li>
+                    <li><input type="checkbox" name="Geschiktvoor" value="5" id="5"><label for="5">onbekend</label</li>
+                </ol>
+
+                <label for="opmerkingen">Opmerkingen</label>
+                <input type="text" name="opmerking" id="opmerkingen">
+
+
+
+                <input type="submit" value="Submit" name="submit">
+
+
+
+        </fieldset>
+
+
+     </form>
+
+
+     <form>
+
+      <fieldset>
+
+          <legend>Stage</legend>
+
+                <label>Geschikt voor</label>
+
+                <ol>
+                    <li><input type="checkbox" name="geschiktvoor1" value="2" id="twee"><label for="twee">tweedejaars studenten</label</li>
+                    <li><input type="checkbox" name="geschiktvoor1" value="4" id="vier"><label for="vier">afstudeerjaars studenten</label</li>
+                    <li><input type="checkbox" name="geschiktvoor1" value="5" id="vijf"><label for="vijf">onbekend</label</li>
+                </ol>
+
+
+                <ol>
+                    <li><label>Hoelang is de stage?</label>
+                    <input type="radio" name="Stageduur" value="10" required id="10"><label for="10">10 weken</label
+                    <input type="radio" name="Stageduur" value="20" required id="20"><label for="20">20 weken</label </li>
+
+
+
+
+                    <li><label>Begin datum</label>
+                    <input type="date" name="begindatum" id="begindatum"></li>
+                </ol>
+
+
+
+
+                <label>Beschrijving werkzaamheden:</label>
+                      <ol>
+                        <li><label for="beschrijvingstagewerkzaamheden">Beschrijving stagewerkzaamheden</label>
+                        <input type="text" name="beschr.stage" id="beschrijvingstagewerkzaamheden"></li>
+                      </ol>
+
+
+                 <label for="beschrijvingstagebedrijf">Beschrijving stagebedrijf</label>
+                      <ol>
+
+                        <li><label for="beschrijvingstagebedrijf">Bedrijfsnaam</label>
+                            <input type="text" name="beschr.stagebed" id="beschrijvingstagebedrijf"></li>
+
+                        <li><label for="straat1">Straatnaam & huisnummer:</label>
+                            <input type="text" name="straatnaam" placeholder="Straatnaam" id="straat1">
+                            <input type="number" name="huisnummer" placeholder="huisnummer">
+                           </li>
+
+                        <li><label for="postcode1">Postcode:</label>
+                            <input type="text" name="postcode" pattern="[0-9]{4}" id="postcode1" placeholder="4 nummers"/>
+                            <input type="text" name="postcode" pattern="[A-Z]{2}" placeholder="2 letters" />
+                           </li>
+
+                        <li><label for="plaats1">Plaats:</label>
+                            <input type="text" name="plaats" id="plaats1" placeholder="bijv. Amsterdam">
+                            </li>
+
+                        <li><label for="sector1">Sector</label>
+                            <input type="text" name="sector" id="sector1"></li>
+
+                        <li><label for="CoreBusiness">Core Business</label>
+                            <input type="text" name="core" id="CoreBusiness"></li>
+
+                      </ol>
+
+
+
+
+
+                <label for="opmerkingen1">Opmerkingen</label>
+                <input type="text" name="opmerkingen" id="opmerkingen1">
+
+
+
+                <input type="submit" value="Submit" name="submit">
+
+
+
+
+        </fieldset>
+
+
+     </form>
+
+
+     </section>
+
+    </article>
+
+  </main>
+
+</body>
+
+</html>
