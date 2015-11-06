@@ -1,0 +1,494 @@
+
+body > header {
+    display: flex;
+    align-items: stretch;
+    background-color: #333333;
+    color: white;
+
+}
+
+body > header > * {
+  margin: 0;
+  padding: .5em;
+
+
+}
+
+
+.container_1 {
+  display: flex;
+}
+
+.container_2 {
+  display: flex;
+}
+
+
+.logo > img {
+
+    padding: 1%;
+    padding-top: 5%;
+}
+
+header > form {
+ padding-top: 1.6%;
+}
+
+header > .to-profile {
+ padding-top: 1.6%;
+
+}
+
+section.related > article {
+    box-shadow: 0 0.3em 0.2em #000;
+}
+
+
+.related > article{
+    display: flex;
+    flex-direction: column;
+    background-color: #c5c5c5;
+    padding: 0.5%;
+    border: 8px solid #a5a5a5;
+
+
+}
+
+.related {
+    flex: 2;
+    background-color: #a5a5a5;
+    padding: 0.5%;
+    min-width: 20em;
+    word-wrap: break-word;
+
+}
+
+main {
+    background-color: white;
+    flex: 3;
+    padding: 0.5%;
+    min-width: 27em;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+
+}
+
+aside {
+    flex-direction: column;
+    flex: 1;
+    background-color: #f1f1f1;
+    color: black;
+    padding: 0.5%;
+    min-width: 10em;
+    word-wrap: break-word;
+
+
+}
+
+
+
+body > footer:last-of-type {
+  display: flex;
+  padding: 1em;
+  background-color: #f1f1f1;
+}
+
+body > footer > * {
+    flex: 1;
+    padding: 0.5%;
+
+}
+
+body > header > a > img {
+    padding-left: 33%;
+    max-width: calc(1040px / 6);
+  max-height: calc(292px / 6);
+  width: auto;
+  height: auto;
+}
+
+body > header > a {
+     transition:  0.4s;
+     cursor: pointer;
+
+}
+
+
+body > header > a:hover {
+      opacity: 0.8;
+    filter: alpha(opacity=4);
+    color: #ffcc00;
+}
+
+body > header > a:active {
+      opacity: 0.4;
+    filter: alpha(opacity=4);
+    color: #ffcc00;
+}
+
+
+
+
+.logo > img {
+  max-width: calc(1040px / 6);
+  max-height: calc(292px / 6);
+  width: auto;
+  height: auto;
+  transition:  2s;
+
+}
+
+.logo> img:active {
+  transform:rotate(360deg);
+  padding-right: 0;
+  padding-top: 10%
+}
+
+
+main article section img {
+  max-width: calc(700px/1.5);
+  max-height: calc(418px/1.5);
+  width: 100%;
+  height: auto;
+}
+
+body > .nav1 > nav > ul > img {
+    max-width: calc(256px / 6);
+  max-height: calc(256px / 6);
+  width: auto;
+  height: auto;
+  transition:  0.4s;
+    padding-left: 44%;
+}
+
+
+body > .nav1 > nav > ul > img:active {
+     opacity: 0.4;
+    filter: alpha(opacity=4);
+
+}
+
+button {
+  background: #ffcc00;
+  border: none;
+  border-radius: 0.3em;
+  box-shadow: ;
+  text-shadow: 10em ;
+  cursor: pointer;
+
+
+}
+
+
+button:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=4);
+
+}
+
+button:active {
+    opacity: 0.5;
+    filter: alpha(opacity=4);
+    border: 5px;
+    width: 17.5%;
+
+}
+
+p {
+   padding-top: 1%;
+   padding-bottom: 1%;
+}
+
+q {
+    background-color: black;
+
+}
+
+ input[type="search"]{
+        width: 80%;
+
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: #cd1c1c;
+}
+
+/* selected link */
+a:active {
+    color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+* {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9832em;
+    line-height: 1.5;
+
+
+}
+
+body > header > h1 {
+    font-family: arial;
+    font-size: 2.5em;
+    margin: 0;
+    color: white;
+    text-shadow:
+    0 0.05em 0em lightgrey,
+    0.05em 0 0em lightgrey,
+
+}
+
+
+
+header > h1{
+    font-family: arial;
+    font-size: 2.3em;
+    margin: 0;
+}
+
+h2 {
+    font-family: arial;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: arial;
+    font-size: 1.2em;
+}
+
+
+
+body {
+    margin: 0;
+    background-color: #5f5f5f;
+
+
+}
+
+
+
+
+.nav1 > nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+
+
+}
+
+.nav1 > nav > ul > li {
+    flex:1;
+    color: white;
+    min-width: 10em;
+    margin: 0;
+
+}
+
+.nav1 {
+   background-color:  #5f5f5f;
+   letter-spacing: 0.2em;
+    color: black;
+
+
+}
+
+
+
+.nav1 > nav > ul > li > a {
+    color: white;
+    transition: 0.4s;
+}
+
+.nav1 > nav > ul > li :hover {
+     color: #ffcc00;
+}
+
+.nav1 > nav > ul > li :active {
+     color: #ffcc00;
+    opacity: 0.8;
+}
+
+
+
+
+
+.responsve_img {
+  width: 100%;
+  height: auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+
+}
+
+
+#menu{
+  display: none;
+
+}
+
+
+
+
+
+/*Formulier pagina*/
+fieldset > label {
+  display: block;
+    margin-top: 0.5em;
+}
+
+fieldset {
+    margin-top: 2em;
+    border: none;
+}
+
+fieldset > legend {
+    font-size: 1.5em;
+}
+
+main input[type="text"], main input[type="date"], main input[type="tel"], main input[type="email"], main textarea {
+    padding: 0.2em;
+    border: 2px solid #5f5f5f;
+    border-radius: .5em;
+    width: 50%;
+    min-width: 18em;
+}
+
+main input[type="submit"] {
+  font-family: verdana;
+  font-size: 1em;
+  padding: 1em  4em;
+  border: none;
+  cursor: pointer;
+  border-radius: .5em;
+  background-color: #ffcc00;
+  margin: 1em;
+}
+
+
+main input[type="submit"]:active {
+      opacity: 0.8;
+    filter: alpha(opacity=4);
+
+}
+
+span {
+
+display: block;
+
+}
+
+fieldset.hide {
+    display: none;
+}
+
+ main input[type="submit"].hide {
+     display: none;
+}
+
+
+
+@media (max-width: 63em) {
+
+  body > header > * {
+    flex: 1;
+
+  }
+
+
+@media (max-width: 70em) {
+
+body > header > h1 {
+    font-size: 2em;
+
+}
+
+
+  }
+
+
+
+@media (max-width: 58em) {
+  body > header {
+    flex-direction: column;
+  }
+      body > header img {
+    display: none;
+  }
+  input[type="search"]{
+        width: 50%;
+
+}
+}
+
+  body footer:last-of-type > * {
+    flex: 1 0 12em;
+  }
+
+  body footer:last-of-type {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+@media (max-width: 70em) {
+.container_1 {   flex-wrap: wrap;
+}
+}
+
+@media (max-width: 40em) {
+
+    .container_1 {
+     flex-direction: column;
+    }
+
+    main {
+        min-width: 10em;}
+
+    .related {
+
+    min-width: 10em;
+
+    }
+}
+
+@media (max-width: 49.7em) {
+    .nav1 > nav > ul {
+
+    flex-direction: column;
+
+
+    }
+
+     a.hide {
+    display: none;
+  }
+     #menu {
+    display: inline;
+  }
+}
+
+
+
